@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="ThemeableVerticalSeekBar">
+        <attr name="min" format="integer"/>
+    </declare-styleable>
+    
+    <attr name="test"/>
+</resources>

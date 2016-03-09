@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#999999"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.verticalseekbar.MainActivity" >
+
+    <com.yz.lw.VerticalSeekBar
+        android:id="@+id/seekbar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:max="65"
+        android:padding="12dp"
+        android:thumb="@drawable/circle_point"
+        app:min="30" />
+
+    <com.yz.lw.VerticalSeekBar
+        android:id="@+id/seekbar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@id/seekbar1"
+        android:max="100"
+        android:padding="12dp"
+        android:thumb="@drawable/circle_point"
+        app:min="0" />
+
+    <com.yz.lw.VerticalSeekBar
+        android:id="@+id/seekbar3"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@id/seekbar2"
+        android:max="100"
+        android:padding="16dp"
+        android:thumb="@drawable/circle_point"
+        app:min="0" />
+
+
+
+</RelativeLayout>
